@@ -7,7 +7,7 @@ export const personalInfo = {
   bio: 'I am a Software Engineer specializing in modern Full-Stack development. With deep expertise across React, TypeScript, Node.js, and cloud platforms, I build responsive, highly interactive web applications designed for speed, beauty, and scale. Inspired by Swiss design and minimalist aesthetics, I focus on readable layouts, elegant typography, and micro-interactions that elevate user experiences.',
   location: 'New Delhi, India',
   email: 'sameer.912210@gmail.com',
-  github: 'https://github.com/sameerion',
+  github: 'https://github.com/sameer912210-wq',
   linkedin: 'https://www.linkedin.com/in/sameer-mohammad-19743b286/',
   twitter: '#',
   resumeUrl: '#', // We can build a download option or preview of a beautifully compiled resume!
