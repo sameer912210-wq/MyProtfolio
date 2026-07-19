@@ -8,7 +8,7 @@ export interface Project {
   liveUrl?: string;
   imageUrl: string;
   featured: boolean;
-  category: 'Full-Stack' | 'Frontend' | 'UI/UX' | 'AI';
+  category: 'UI/UX' | 'AI' | 'Test Automation' | 'CI/CD' | 'API Testing';
 }
 
 export interface Experience {
