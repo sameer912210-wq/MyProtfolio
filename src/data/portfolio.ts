@@ -1,4 +1,5 @@
 import { Project, Experience, Education, SkillCategory, Certification } from '../types';
+import avatarImg from '../assets/images/developer_profile_pic_1784427319685.jpg';
 
 export const personalInfo = {
   name: 'Sameer Mohammad',
@@ -11,6 +12,8 @@ export const personalInfo = {
   linkedin: 'https://www.linkedin.com/in/sameer-mohammad-19743b286/',
   twitter: '#',
   resumeUrl: '#', // We can build a download option or preview of a beautifully compiled resume!
+  photoUrl: avatarImg,
+  chatbotUrl: 'https://sameer1130.app.n8n.cloud/webhook/09266666-9142-49fe-996b-ddfe5fe546c7/chat',
 };
 
 export const skills: SkillCategory[] = [
@@ -114,7 +117,7 @@ export const projects: Project[] = [
     description: 'A fully responsive full-stack e-commerce experience featuring modern item discovery, fluid shopping carts, Stripe payments, and a powerful admin insights panel.',
     longDescription: 'NextShop is a flagship full-stack e-commerce ecosystem designed to represent premium retail. Features a state-of-the-art product discovery layout with faceted search filters, an elegant multi-step checkout workflow with Stripe payment authentication, user order management, and an administration dashboard mapping sales analytics, active carts, and stock levels.',
     techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL', 'Stripe', 'Zustand'],
-    githubUrl: 'https://github.com/sameerion/next-shop',
+    githubUrl: 'https://github.com/sameer912210-wq/next-shop',
     liveUrl: 'https://next-shop-demo.vercel.app',
     imageUrl: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1200',
     featured: true,
@@ -126,7 +129,7 @@ export const projects: Project[] = [
     description: 'A high-performance interactive whiteboarding and collaborative digital space utilizing real-time event synchronizations.',
     longDescription: 'SyncSpace is a digital infinite whiteboarding suite for remote teams. Engineered with rich canvas drawing APIs, vector operations, shape alignment, text inputs, and multi-user pointer trackers. Utilizes server-authoritative web sockets to synchronize user changes instantly across active boards with zero latency lag.',
     techStack: ['React', 'TypeScript', 'Socket.io', 'Node.js', 'Express', 'Tailwind CSS', 'Framer Motion'],
-    githubUrl: 'https://github.com/sameerion/sync-space',
+    githubUrl: 'https://github.com/sameer912210-wq/sync-space',
     liveUrl: 'https://sync-space-demo.vercel.app',
     imageUrl: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&q=80&w=1200',
     featured: true,
@@ -138,7 +141,7 @@ export const projects: Project[] = [
     description: 'An AI-powered content automation dashboard integrating Gemini Flash models to summarize text, translate blogs, and draft marketing strategies.',
     longDescription: 'GeminiPulse connects deep-learning AI directly to a modern dashboard interface. Built as a full-stack SaaS workspace, users can upload documents, paste audio links, or write prompts. The app summarizes files, extracts action points, translates across 12 languages, and schedules drafts into an editorial calendar.',
     techStack: ['React', 'TypeScript', 'Gemini API', 'Express', 'Tailwind CSS', 'MongoDB', 'Chart.js'],
-    githubUrl: 'https://github.com/sameerion/gemini-pulse',
+    githubUrl: 'https://github.com/sameer912210-wq/gemini-pulse',
     liveUrl: 'https://gemini-pulse.vercel.app',
     imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&q=80&w=1200',
     featured: true,
@@ -150,7 +153,7 @@ export const projects: Project[] = [
     description: 'A vibrant portfolio directory and social networking hub for engineers to exhibit their code, host project demos, and connect.',
     longDescription: 'DevShowcase is a social directory where programmers build beautiful customized profiles. Developers can import GitHub repos directly, toggle showcase cards, embed live code editors, write developer blogs, and follow peers. Integrated with Markdown rendering and an advanced tag system.',
     techStack: ['React', 'Redux', 'MongoDB', 'Express', 'Tailwind CSS', 'GitHub API'],
-    githubUrl: 'https://github.com/sameerion/dev-showcase',
+    githubUrl: 'https://github.com/sameer912210-wq/dev-showcase',
     liveUrl: 'https://dev-showcase.vercel.app',
     imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1200',
     featured: false,

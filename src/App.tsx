@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('about');
@@ -64,6 +65,9 @@ export default function App() {
         {/* Section: Contact Mail Form Dispatcher */}
         <Contact />
       </main>
+
+      {/* Floating Interactive Chatbot Agent */}
+      <Chatbot />
 
       {/* Footer copyright and Back-to-top trigger */}
       <Footer />

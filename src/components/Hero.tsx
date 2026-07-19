@@ -50,22 +50,52 @@ export default function Hero({ setActiveSection }: HeroProps) {
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full">
         {/* Left column: Narrative content */}
         <div className="lg:col-span-7 flex flex-col items-start text-left">
-          {/* Status pill */}
-          <motion.div
-            id="status_pill"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-full mb-6"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-            </span>
-            <span className="font-mono text-[10px] tracking-wider text-zinc-400 uppercase">
-              Available for New Projects
-            </span>
-          </motion.div>
+          {/* Profile Photo & Status Pill */}
+          <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-6">
+            {personalInfo.photoUrl && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ type: "spring", stiffness: 100, damping: 15 }}
+                className="relative group cursor-pointer shrink-0"
+              >
+                {/* Glowing ring */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-indigo-500 rounded-full blur opacity-25 group-hover:opacity-60 transition duration-1000 group-hover:duration-200" />
+                <img
+                  src={personalInfo.photoUrl}
+                  alt={personalInfo.name}
+                  className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-zinc-800 object-cover bg-zinc-950"
+                  referrerPolicy="no-referrer"
+                />
+              </motion.div>
+            )}
+            <div className="flex flex-col gap-2">
+              <motion.div
+                id="status_pill"
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-full w-fit"
+              >
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                <span className="font-mono text-[10px] tracking-wider text-zinc-400 uppercase">
+                  Available for New Projects
+                </span>
+              </motion.div>
+              
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="text-[10px] font-mono text-zinc-500 flex items-center gap-1.5 px-1"
+              >
+                <span>Based in {personalInfo.location}</span>
+              </motion.div>
+            </div>
+          </div>
 
           {/* Heading */}
           <motion.h1
