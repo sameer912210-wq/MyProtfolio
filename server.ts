@@ -42,63 +42,68 @@ Here is Sameer Mohammad's verified portfolio data to construct your answers:
 
 1. PERSONAL INFO
 - Name: Sameer Mohammad
-- Title: Full-Stack Developer & Software Engineer
-- Subtitle: Crafting clean, minimalist, and high-performance web experiences.
-- Bio: Software Engineer specializing in modern Full-Stack development. Deep expertise across React, TypeScript, Node.js, and cloud platforms. Focuses on readable layouts, elegant typography, and micro-interactions. Inspired by Swiss design and minimalist aesthetics.
-- Location: New Delhi, India
+- Title: Software Quality Engineer | Quality Engineering Analyst | SDET
+- Subtitle: Crafting clean, minimalist, and high-performance quality assurance solutions.
+- Bio: Software Quality Engineer specializing in modern quality engineering. With deep expertise across Manual Testing, API Testing, Automation Testing, AI integrated Testing and various other testing methodologies, I build and execute test strategies for complex software systems. I focus on providing detailed test results, comprehensive test reports, and actionable insights to help deliver high-quality software.
+- Location: Hyderabad, India
 - Email: sameer.912210@gmail.com
 - GitHub: https://github.com/sameerion
 - LinkedIn: https://www.linkedin.com/in/sameer-mohammad-19743b286/
 
 2. CORE SKILLS
-- Frontend Development: React / Next.js, TypeScript, Tailwind CSS, Redux Toolkit / Zustand, Framer Motion, HTML5 & CSS3.
-- Backend & Databases: Node.js & Express, REST & GraphQL APIs, PostgreSQL, MongoDB, Firebase, SQL & Prisma ORM.
-- Tools & DevOps: Git & GitHub, Docker, AWS (S3, EC2), Vercel / Netlify / PM2, CI/CD Pipelines, Linux Command Line.
+- Test Automation: Playwright, Selenium WebDriver, Automated Testing, Page Object Model (POM), Cross-browser Testing, Visual Regression Testing.
+- API Testing: REST API Testing, GraphQL Testing, Postman, Request/Response Validation, Schema Validation, Performance Testing.
+- BDD & Test Frameworks: Cucumber, SpecFlow, TestNG, JUnit, Allure Report, Gherkin Syntax.
+- Tools & DevOps: Git & GitHub, Jenkins, CI/CD Pipelines, Docker, AWS (S3, EC2), Linux Command Line.
+- Programming Languages: TypeScript, C#, Java, Python for test automation scripting.
+- Performance & Load Testing: JMeter for load testing, stress testing, and performance analysis.
+- Manual Testing: Test Planning, Test Case Design, Risk-Based Testing, Exploratory Testing, Bug Reporting.
 
 3. WORK EXPERIENCE
-- Associate Full-Stack Engineer at Apex Software Labs (July 2024 - Present):
-  * Engineered and optimized responsive React dashboards resulting in a 25% increase in user session retention.
-  * Designed and deployed server-side REST APIs using Node.js, Express, and PostgreSQL, cutting API response times by 35%.
-  * Developed pixel-perfect layouts using React, Tailwind CSS, and Framer Motion, adhering to strict accessible UI standards (WCAG).
-  * Refactored legacy React components into clean, modern functional components with Custom Hooks, improving maintainability by 40%.
-- Freelance Web Developer (October 2023 - June 2024):
-  * Collaborated directly with small business clients to understand product requirements and build bespoke high-performance landing pages and SaaS applications.
-  * Integrated payment solutions (Stripe SDK) and headless e-commerce integrations, processing secure user orders seamlessly.
-  * Optimized client websites for search engine visibility (SEO) and Lighthouse score metrics, achieving consistent 95+ scores in performance and accessibility.
+- Software Quality Engineer at Infosys (June 2022 - Present):
+  * Performed comprehensive manual testing on various web applications and mobile applications.
+  * Executed API testing on web and mobile applications, validating endpoints and response integrity.
+  * Developed automated test scripts using Selenium WebDriver and Playwright for end-to-end testing.
+  * Built robust test frameworks following BDD methodologies with Cucumber and SpecFlow.
+  * Integrated automated tests into Jenkins CI/CD pipelines for continuous quality assurance.
+  * Identified and documented critical defects, working closely with development teams for resolution.
+  * Analyzed test results and generated detailed reports to stakeholders.
 
 4. EDUCATION
-- Bachelor of Technology (B.Tech) in Computer Science & Engineering from Jamia Millia Islamia, New Delhi, India (2021 - 2025):
-  * Grade: 8.8 CGPA
-  * Highlights: Specialization in Software Engineering and Web Architecture; Active contributor to the Open Source Developers Club; Organized multiple collegiate hackathons and tech workshops.
-- Senior Secondary Education (Class XII) in Science & Math from Delhi Public School, Patna, India (2019 - 2021):
-  * Grade: 94.2%
-  * Highlights: Graduated with honors in Computer Science, Physics, Chemistry, and Mathematics; Leader of the High School Robotics Team.
+- Bachelor of Technology (B.Tech) in Civil Engineering:
+  * Sri Chundi Ranganayakulu Engineering College, Chilakaluripet, India (2016 - 2020)
+  * Grade: 9.1 CGPA
+  * Highlights: Specialized in Structural Analysis and Construction Materials; Completed projects on Sustainable Building Design.
+- Senior Secondary Education (Class XII) - MPC:
+  * Narayana Junior College, Chilakaluripet, India (2013 - 2016)
+  * Grade: 90.6%
+  * Highlights: Graduated with honors in Physics, Chemistry, and Mathematics.
 
-5. FEATURED PROJECTS
-- NextShop (Premium E-Commerce Suite):
-  * Description: A fully responsive full-stack e-commerce experience featuring modern item discovery, fluid shopping carts, Stripe payments, and a powerful admin insights panel.
-  * Tech Stack: Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Stripe, Zustand
-  * Live URL: https://next-shop-demo.vercel.app
-  * GitHub: https://github.com/sameerion/next-shop
-- SyncSpace (Collaborative Canvas):
-  * Description: A high-performance interactive whiteboarding and collaborative digital space utilizing real-time event synchronizations.
-  * Tech Stack: React, TypeScript, Socket.io, Node.js, Express, Tailwind CSS, Framer Motion
-  * Live URL: https://sync-space-demo.vercel.app
-  * GitHub: https://github.com/sameerion/sync-space
-- GeminiPulse (Smart Content Hub):
-  * Description: An AI-powered content automation dashboard integrating Gemini Flash models to summarize text, translate blogs, and draft marketing strategies.
-  * Tech Stack: React, TypeScript, Gemini API, Express, Tailwind CSS, MongoDB, Chart.js
-  * Live URL: https://gemini-pulse.vercel.app
-  * GitHub: https://github.com/sameerion/gemini-pulse
-- DevShowcase (Developer Portals):
-  * Description: A vibrant portfolio directory and social networking hub for engineers to exhibit their code, host project demos, and connect.
-  * Tech Stack: React, Redux, MongoDB, Express, Tailwind CSS, GitHub API
-  * Live URL: https://dev-showcase.vercel.app
-  * GitHub: https://github.com/sameerion/dev-showcase
+5. FEATURED TEST AUTOMATION PROJECTS
+- ShopFlow QA (E-Commerce Test Automation Suite):
+  * Description: A Playwright + TypeScript end-to-end automation framework built on the Page Object Model, covering checkout, cart, and payment flows for an e-commerce platform.
+  * Tech Stack: Playwright, TypeScript, Page Object Model, Jenkins, Allure Report, GitHub Actions, Docker
+  * GitHub: https://github.com/sameerion/shopflow-qa
+  * Live Demo: https://shopflow-qa-report.vercel.app
+- BDD Regression Suite (Selenium & SpecFlow):
+  * Description: A behavior-driven regression testing framework using Selenium WebDriver and SpecFlow, translating business requirements directly into executable Gherkin scenarios.
+  * Tech Stack: Selenium WebDriver, SpecFlow, C#, NUnit, BDD, CI/CD Integration
+  * GitHub: https://github.com/sameerion/bdd-regression-suite
+  * Live Demo: https://bdd-regression-report.vercel.app
+- PipelineWatch (CI/CD Test Reporting Dashboard):
+  * Description: A centralized test observability dashboard that aggregates Jenkins pipeline results, flaky test trends, and cross-browser pass/fail rates into a single view.
+  * Tech Stack: React, TypeScript, Node.js, Jenkins REST API, Real-time Data Visualization, MongoDB
+  * GitHub: https://github.com/sameerion/pipelinewatch
+  * Live Demo: https://pipelinewatch-demo.vercel.app
+- API Sentinel (REST API Test Framework):
+  * Description: A lightweight API test automation framework for validating REST endpoints, schema contracts, and response times as part of the CI pipeline.
+  * Tech Stack: Playwright, TypeScript, JSON Schema, Jenkins, Postman, Performance Metrics
+  * GitHub: https://github.com/sameerion/api-sentinel
+  * Live Demo: https://api-sentinel-demo.vercel.app
 
-6. CERTIFICATIONS
-- Meta Front-End Developer Professional Certificate (Coursera / Meta, March 2024) - Credential ID: META-FED-93817
-- Google Cloud Certified - Associate Cloud Engineer (Google Cloud, November 2024) - Credential ID: GCP-ACE-28319
+6. CERTIFICATIONS & CREDENTIALS
+- Meta Front-End Developer Professional Certificate (Coursera / Meta, March 2024)
+- Google Cloud Certified - Associate Cloud Engineer (Google Cloud, November 2024)
 - Full Stack Web Development Program (FreeCodeCamp, August 2023)
 `;
 

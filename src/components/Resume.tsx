@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion } from 'motion/react';
-import { Download, Printer, CheckCircle, Mail, Phone, Globe, MapPin, Sparkles, Code2, Layers } from 'lucide-react';
+import { Download, Printer, CheckCircle, Mail, Phone, Globe, MapPin, Sparkles, Code2, Layers, ShieldCheck } from 'lucide-react';
 import { personalInfo, skills, experiences, education, certifications } from '../data/portfolio';
 
 export default function Resume() {
@@ -112,26 +112,26 @@ export default function Resume() {
             {/* Core Values / Strengths list */}
             <div className="bg-zinc-900/40 border border-zinc-800/80 rounded-2xl p-6">
               <h3 className="text-lg font-sans font-bold text-zinc-100 mb-6 flex items-center gap-2">
-                <Layers className="w-5 h-5 text-indigo-400" />
+                <ShieldCheck className="w-5 h-5 text-indigo-400" />
                 Professional Pillars
               </h3>
               <ul className="space-y-3 text-sm text-zinc-400">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-4 h-4 text-emerald-400 mt-0.5 shrink-0" />
                   <span>
-                    <strong>Semantic & Scalable</strong> — Clean directory architecture, modular reusable assets, type-safety.
+                    <strong>Automation Framework Design</strong> — Scalable Page Object Model architecture, reusable test utilities, type-safe test code with Playwright & TypeScript.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-4 h-4 text-emerald-400 mt-0.5 shrink-0" />
                   <span>
-                    <strong>User Centric UI</strong> — Responsive mobile-first fluid grids, high contrast readability.
+                    <strong>Risk-Based Test Coverage</strong> — Deep edge-case analysis, cross-browser & cross-device validation, defect prevention over late-stage detection.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-4 h-4 text-emerald-400 mt-0.5 shrink-0" />
                   <span>
-                    <strong>Performant Systems</strong> — Minimized assets, bundled API routes, low bundle size.
+                    <strong>CI/CD Integrated Quality</strong> — Jenkins pipeline gating, fast feedback loops, flaky test triage, and continuous regression reporting.
                   </span>
                 </li>
               </ul>
