@@ -49,11 +49,10 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
   return (
     <header
       id="site_header"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? 'py-4 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800/40'
           : 'py-6 bg-transparent'
-      }`}
+        }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         {/* Logo / Brand */}
@@ -80,9 +79,8 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
               id={`nav_btn_${item.id}`}
               key={item.id}
               onClick={() => handleNavClick(item.id)}
-              className={`relative px-4 py-1.5 text-xs font-mono tracking-wide rounded-full transition-colors duration-200 ${
-                activeSection === item.id ? 'text-emerald-400' : 'text-zinc-400 hover:text-zinc-100'
-              }`}
+              className={`relative px-4 py-1.5 text-xs font-mono tracking-wide rounded-full transition-colors duration-200 ${activeSection === item.id ? 'text-emerald-400' : 'text-zinc-400 hover:text-zinc-100'
+                }`}
             >
               {activeSection === item.id && (
                 <motion.span
@@ -157,11 +155,10 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
                   transition={{ delay: idx * 0.05 }}
                   key={item.id}
                   onClick={() => handleNavClick(item.id)}
-                  className={`w-full text-left py-2 px-4 rounded-lg font-mono text-sm transition-all ${
-                    activeSection === item.id
+                  className={`w-full text-left py-2 px-4 rounded-lg font-mono text-sm transition-all ${activeSection === item.id
                       ? 'bg-zinc-900 text-emerald-400 border-l-2 border-emerald-400'
                       : 'text-zinc-400 hover:text-zinc-100'
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </motion.button>

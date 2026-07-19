@@ -47,7 +47,7 @@ Here is Sameer Mohammad's verified portfolio data to construct your answers:
 - Bio: Software Engineer specializing in modern Full-Stack development. Deep expertise across React, TypeScript, Node.js, and cloud platforms. Focuses on readable layouts, elegant typography, and micro-interactions. Inspired by Swiss design and minimalist aesthetics.
 - Location: New Delhi, India
 - Email: sameer.912210@gmail.com
-- GitHub: https://github.com/sameer912210-wq
+- GitHub: https://github.com/sameerion
 - LinkedIn: https://www.linkedin.com/in/sameer-mohammad-19743b286/
 
 2. CORE SKILLS
@@ -79,22 +79,22 @@ Here is Sameer Mohammad's verified portfolio data to construct your answers:
   * Description: A fully responsive full-stack e-commerce experience featuring modern item discovery, fluid shopping carts, Stripe payments, and a powerful admin insights panel.
   * Tech Stack: Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Stripe, Zustand
   * Live URL: https://next-shop-demo.vercel.app
-  * GitHub: https://github.com/sameer912210-wq/next-shop
+  * GitHub: https://github.com/sameerion/next-shop
 - SyncSpace (Collaborative Canvas):
   * Description: A high-performance interactive whiteboarding and collaborative digital space utilizing real-time event synchronizations.
   * Tech Stack: React, TypeScript, Socket.io, Node.js, Express, Tailwind CSS, Framer Motion
   * Live URL: https://sync-space-demo.vercel.app
-  * GitHub: https://github.com/sameer912210-wq/sync-space
+  * GitHub: https://github.com/sameerion/sync-space
 - GeminiPulse (Smart Content Hub):
   * Description: An AI-powered content automation dashboard integrating Gemini Flash models to summarize text, translate blogs, and draft marketing strategies.
   * Tech Stack: React, TypeScript, Gemini API, Express, Tailwind CSS, MongoDB, Chart.js
   * Live URL: https://gemini-pulse.vercel.app
-  * GitHub: https://github.com/sameer912210-wq/gemini-pulse
+  * GitHub: https://github.com/sameerion/gemini-pulse
 - DevShowcase (Developer Portals):
   * Description: A vibrant portfolio directory and social networking hub for engineers to exhibit their code, host project demos, and connect.
   * Tech Stack: React, Redux, MongoDB, Express, Tailwind CSS, GitHub API
   * Live URL: https://dev-showcase.vercel.app
-  * GitHub: https://github.com/sameer912210-wq/dev-showcase
+  * GitHub: https://github.com/sameerion/dev-showcase
 
 6. CERTIFICATIONS
 - Meta Front-End Developer Professional Certificate (Coursera / Meta, March 2024) - Credential ID: META-FED-93817
