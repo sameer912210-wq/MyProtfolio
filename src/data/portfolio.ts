@@ -4,7 +4,7 @@ import avatarImg from '../assets/images/developer_profile_pic_1784427319685.jpeg
 export const personalInfo = {
   name: 'Sameer Mohammad',
   title: 'Software Quality Engineer | Quality Engineering Analyst | SDET',
-  subtitle: 'Crafting clean, minimalist, and high-performance web experiences.',
+  subtitle: 'Crafting reliable, thorough, and high-performance test automation frameworks.',
   bio: 'I am a Software Quality Engineer specializing in modern quality engineering. With deep expertise across Manual Testing, API Testing, Automation Testing,AI intigrated Testing and various other testing methodologies, I build and execute test strategies for complex software systems. I focus on providing detailed test results, comprehensive test reports, and actionable insights to help deliver high-quality software.',
   location: 'Hyderabad, India',
   email: 'sameer.912210@gmail.com',
