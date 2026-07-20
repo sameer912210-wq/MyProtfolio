@@ -189,7 +189,7 @@ export default function Resume() {
                   Summary Profile
                 </h4>
                 <p className="text-sm text-zinc-300 printable-text-black leading-relaxed">
-                  Passionate and results-oriented Software Engineer with a solid background in building modern, scalable web applications. Skilled in client-side SPA structures and server-side APIs, utilizing type-safe TypeScript, efficient state engines, and modern datastores. Committed to clean code practices and agile collaboration.
+                  Passionate and results-oriented Software Quality Engineer with a solid background in test automation and quality assurance for modern web applications. Skilled in designing scalable automation frameworks with Playwright, Selenium, and SpecFlow, using type-safe TypeScript, robust Page Object Model architectures, and seamless CI/CD integration with Jenkins. Committed to clean, maintainable test code and close collaboration within agile teams to ship reliable, high-quality software.
                 </p>
               </div>
 

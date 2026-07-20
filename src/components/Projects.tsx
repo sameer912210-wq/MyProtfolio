@@ -5,10 +5,10 @@ import { projects } from '../data/portfolio';
 import { Project } from '../types';
 
 export default function Projects() {
-  const [filter, setFilter] = useState<'All' | 'Full-Stack' | 'Frontend' | 'AI'>('All');
+  const [filter, setFilter] = useState<'All' | 'Test-Automation' | 'CI/CD' | 'API Testing' | 'AI'>('All');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const categories: ('All' | 'Full-Stack' | 'Frontend' | 'AI')[] = ['All', 'Full-Stack', 'Frontend', 'AI'];
+  const categories: ('All' | 'Test-Automation' | 'CI/CD' | 'API Testing' | 'AI')[] = ['All', 'Test-Automation', 'CI/CD', 'API Testing', 'AI'];
 
   const filteredProjects = projects.filter(
     (project) => filter === 'All' || project.category === filter
@@ -27,7 +27,7 @@ export default function Projects() {
               Featured Projects
             </h2>
             <p className="text-sm text-zinc-400 mt-2 max-w-lg">
-              A curated selection of dynamic full-stack applications, interactive UI canvasses, and deep integrations that showcase my problem-solving approach.
+              A curated selection of automation frameworks, CI/CD test pipelines, and API validation suites that showcase my approach to building reliable, scalable quality systems.
             </p>
           </div>
 
