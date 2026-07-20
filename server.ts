@@ -47,7 +47,7 @@ Here is Sameer Mohammad's verified portfolio data to construct your answers:
 - Bio: Software Quality Engineer specializing in modern quality engineering. With deep expertise across Manual Testing, API Testing, Automation Testing, AI integrated Testing and various other testing methodologies, I build and execute test strategies for complex software systems. I focus on providing detailed test results, comprehensive test reports, and actionable insights to help deliver high-quality software.
 - Location: Hyderabad, India
 - Email: sameer.912210@gmail.com
-- GitHub: https://github.com/sameerion
+- GitHub: https://github.com/sameer912210-wq
 - LinkedIn: https://www.linkedin.com/in/sameer-mohammad-19743b286/
 
 2. CORE SKILLS
@@ -83,28 +83,28 @@ Here is Sameer Mohammad's verified portfolio data to construct your answers:
 - ShopFlow QA (E-Commerce Test Automation Suite):
   * Description: A Playwright + TypeScript end-to-end automation framework built on the Page Object Model, covering checkout, cart, and payment flows for an e-commerce platform.
   * Tech Stack: Playwright, TypeScript, Page Object Model, Jenkins, Allure Report, GitHub Actions, Docker
-  * GitHub: https://github.com/sameerion/shopflow-qa
+  * GitHub: https://github.com/sameer912210-wq/shopflow-qa
   * Live Demo: https://shopflow-qa-report.vercel.app
 - BDD Regression Suite (Selenium & SpecFlow):
   * Description: A behavior-driven regression testing framework using Selenium WebDriver and SpecFlow, translating business requirements directly into executable Gherkin scenarios.
   * Tech Stack: Selenium WebDriver, SpecFlow, C#, NUnit, BDD, CI/CD Integration
-  * GitHub: https://github.com/sameerion/bdd-regression-suite
+  * GitHub: https://github.com/sameer912210-wq/bdd-regression-suite
   * Live Demo: https://bdd-regression-report.vercel.app
 - PipelineWatch (CI/CD Test Reporting Dashboard):
   * Description: A centralized test observability dashboard that aggregates Jenkins pipeline results, flaky test trends, and cross-browser pass/fail rates into a single view.
   * Tech Stack: React, TypeScript, Node.js, Jenkins REST API, Real-time Data Visualization, MongoDB
-  * GitHub: https://github.com/sameerion/pipelinewatch
+  * GitHub: https://github.com/sameer912210-wq/pipelinewatch
   * Live Demo: https://pipelinewatch-demo.vercel.app
 - API Sentinel (REST API Test Framework):
   * Description: A lightweight API test automation framework for validating REST endpoints, schema contracts, and response times as part of the CI pipeline.
   * Tech Stack: Playwright, TypeScript, JSON Schema, Jenkins, Postman, Performance Metrics
-  * GitHub: https://github.com/sameerion/api-sentinel
+  * GitHub: https://github.com/sameer912210-wq/api-sentinel
   * Live Demo: https://api-sentinel-demo.vercel.app
 
 6. CERTIFICATIONS & CREDENTIALS
-- Meta Front-End Developer Professional Certificate (Coursera / Meta, March 2024)
-- Google Cloud Certified - Associate Cloud Engineer (Google Cloud, November 2024)
-- Full Stack Web Development Program (FreeCodeCamp, August 2023)
+- Certified Tester Foundation Level (ISTQB , March 2024)
+- Certified Tester Advanced Level - Test Automation Engineer (ISTQB, November 2024)
+- Certified Tester - AI Testing (ISTQB, August 2025)
 `;
 
 // API routes
