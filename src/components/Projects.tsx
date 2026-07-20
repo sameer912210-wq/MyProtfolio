@@ -5,10 +5,10 @@ import { projects } from '../data/portfolio';
 import { Project } from '../types';
 
 export default function Projects() {
-  const [filter, setFilter] = useState<'All' | 'Test-Automation' | 'CI/CD' | 'API Testing' | 'AI'>('All');
+  const [filter, setFilter] = useState<'All' | 'Test Automation' | 'CI/CD' | 'API Testing' | 'AI'>('All');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const categories: ('All' | 'Test-Automation' | 'CI/CD' | 'API Testing' | 'AI')[] = ['All', 'Test-Automation', 'CI/CD', 'API Testing', 'AI'];
+  const categories: ('All' | 'Test Automation' | 'CI/CD' | 'API Testing' | 'AI')[] = ['All', 'Test Automation', 'CI/CD', 'API Testing', 'AI'];
 
   const filteredProjects = projects.filter(
     (project) => filter === 'All' || project.category === filter

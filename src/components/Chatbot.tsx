@@ -24,8 +24,8 @@ interface ChatMessage {
 
 const SUGGESTED_PROMPTS = [
   "What are Sameer's main skills?",
-  "Tell me about the NextShop project.",
-  "What did he do at Apex Software Labs?",
+  "Tell me about the ShopFlow project.",
+  "What did he do at Infosys?",
   "Is Sameer available for new projects?",
   "What is Sameer's educational background?"
 ];
